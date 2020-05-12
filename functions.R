@@ -1,5 +1,5 @@
 #' I declare that this code is work done as part of the Part III Examination. I have read and
-#' understood both the University¡¯s statement on the Definition of Academic Misconduct 
+#' understood both the UniversityÂ¡Â¯s statement on the Definition of Academic Misconduct 
 #' and the Faculty Guidelines on Plagiarism and Academic Misconduct and have abided by them.
 #' This is the result of my own work, and except where explicitly stated otherwise, only
 #' includes material undertaken since the publication of the list of essay titles, and includes
@@ -51,4 +51,4 @@ ci80_low<-n/(p$fit+p$se.fit*qt(1-0.2/2,n-1))
 result <- data.frame(ci95_low, ci80_low, ci80_high, ci95_high)
 names(result) <- c("95% Lower","80% Lower","80% Upper","95% Upper")
 require(magrittr)
-result %>% knitr::kable(digits=0) # confidence Intervals
+result %>% knitr::kable(digits=0) # confidence intervals
